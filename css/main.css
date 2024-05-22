@@ -1,0 +1,76 @@
+[data-sns=yo][data-type="w"] {
+  background-image: url(https://www.moe.go.kr/img/2021Renewal/common/sns_3_w.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+[data-sns=yo] {
+  background-color: #E44;
+}
+
+[data-sns] {
+  overflow: hidden;
+  display: block;
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+[data-sns=in][data-type="w"] {
+  background-image: url(https://www.moe.go.kr/img/2021Renewal/common/sns_7_w.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+[data-sns=in] {
+  background-color: #8F23BD;
+}
+
+[data-sns=be][data-type="w"] {
+  background-image: url(https://www.moe.go.kr/img/2021Renewal/common/sns_6_w.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+[data-sns=be] {
+  background-color: #3CC44F;
+}
+
+[data-sns=ka][data-type="w"] {
+  background-image: url(https://www.moe.go.kr/img/2021Renewal/common/sns_4_w.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+[data-sns=ka] {
+  background-color: #F8C513;
+}
+
+[data-sns=fa][data-type="w"] {
+  background-image: url(https://www.moe.go.kr/img/2021Renewal/common/sns_1_w.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+[data-sns=fa] {
+  background-color: #3A589E;
+}
+
+
+
+[data-sns=bl][data-type="w"] {
+  background-image: url(https://www.moe.go.kr/img/2021Renewal/common/sns_5_w.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+[data-sns=bl] {
+  background-color: #23AA36;
+}

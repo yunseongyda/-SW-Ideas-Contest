@@ -1,0 +1,189 @@
+* {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+@media (min-width: 1200px) {
+  .large_container, .container-lg, .container-md, .container-sm, .container-xl {
+      max-width: 1300px;
+  }
+}
+
+.row {
+  margin: auto;
+}
+
+
+#navContainerFluid {
+	box-shadow: 0 5px 10px 0px #0003, 0 0 10px 1px #fff3;
+  background-color: white;
+}
+
+.bg-halfOp {
+  background: rgba(230, 245, 255, 0);
+  color: rgba(43, 43, 43, 0);
+  transition: all 0.5s linear 0.1s;
+}
+
+.imgOverlay .btn {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.imgOverlay .card {
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.imgOverlay .bg-success {
+  background-color: rgba(0, 0, 0, 0) !important;
+  color: rgba(255, 255, 255, 0);
+  transition: all 1s;
+}
+
+.imgOverlay .card:hover .bg-success {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  color: rgba(255, 255, 255, 1);
+}
+
+.imgOverlay .card:hover .btn {
+  opacity: 1;
+}
+
+
+.bg-halfOp:hover {
+  background: rgba(230, 245, 255, 0.724);
+  color: rgba(43, 43, 43, 1);
+}
+
+.bg-navy {
+  background-color: #053863;
+}
+
+.bg-Lblue {
+  background-color: #e8eff5;
+}
+
+.table-Lblue,
+.table-Lblue > th,
+.table-Lblue > td {
+  background-color: #e8eff5;
+}
+
+.table-Lblue th,
+.table-Lblue td,
+.table-Lblue thead th,
+.table-Lblue tbody + tbody {
+  border-top: 2px solid #053863;
+}
+
+.table-bordered td, .table-bordered th {
+  border-left: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+
+}
+
+[data-sns=yo][data-type="w"] {
+  background-image: url(https://www.moe.go.kr/img/2021Renewal/common/sns_3_w.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+[data-sns=yo] {
+  background-color: #E44;
+}
+
+[data-sns] {
+  overflow: hidden;
+  display: block;
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+[data-sns=in][data-type="w"] {
+  background-image: url(https://www.moe.go.kr/img/2021Renewal/common/sns_7_w.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+[data-sns=in] {
+  background-color: #8F23BD;
+}
+
+[data-sns=be][data-type="w"] {
+  background-image: url(https://www.moe.go.kr/img/2021Renewal/common/sns_6_w.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+[data-sns=be] {
+  background-color: #3CC44F;
+}
+
+[data-sns=ka][data-type="w"] {
+  background-image: url(https://www.moe.go.kr/img/2021Renewal/common/sns_4_w.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+[data-sns=ka] {
+  background-color: #F8C513;
+}
+
+[data-sns=fa][data-type="w"] {
+  background-image: url(https://www.moe.go.kr/img/2021Renewal/common/sns_1_w.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+[data-sns=fa] {
+  background-color: #3A589E;
+}
+
+
+
+[data-sns=bl][data-type="w"] {
+  background-image: url(https://www.moe.go.kr/img/2021Renewal/common/sns_5_w.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+[data-sns=bl] {
+  background-color: #23AA36;
+}
+
+li {
+  list-style: none;
+}
+
+.dot-list li {
+  list-style: disc;
+}
+
+#h-55{
+  height: 33px;
+  margin-top: 13px;
+}
+
+.cs-bottom {
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+}
+
+.active {
+  display: inline !important;
+}
+
+#cbx_chkAll {
+  border: 5px solid magenta;
+}
